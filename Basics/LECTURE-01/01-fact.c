@@ -7,6 +7,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
+    // Learning to know the flow of the Loops //
     for(i=1;i<=n;i++){
         fact = fact * i;
     }
