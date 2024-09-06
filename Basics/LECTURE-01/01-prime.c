@@ -4,6 +4,8 @@ int main() {
     int n,i;
     int temp;
 
+    // For multi line comment /**/ is used.
+    
     /*We know that lets say a number is said to primr when it is divisible by only one and that number itself.
       So there is a logic that it has either or nor divisor less than itself so that it is enough to check if it divisile by number untill itself.*/
 
