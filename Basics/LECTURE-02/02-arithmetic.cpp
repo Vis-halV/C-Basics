@@ -30,6 +30,8 @@ int main() {
     int r = x % y; 
     cout<<"The sum of "<< x << " and " << y << " is : " << r <<endl;
 
+    // Conditional operators is studied and will be applied briefly in loops and etc. //
+
     return 0;
 
 }
