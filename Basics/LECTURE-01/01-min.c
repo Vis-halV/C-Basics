@@ -5,6 +5,7 @@ int main() {
     printf("Enter the value for x and y:");
     scanf("%d %d",&x,&y);
 
+    // Learning about decision box //
     if(x<y){
         printf("The min value is x: %d",x);
     } else{
