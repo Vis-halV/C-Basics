@@ -11,4 +11,6 @@ int main() {
     /*We are having i rows with i+1 values */
         cout << endl;
     }
+
+    return 0;
 }
