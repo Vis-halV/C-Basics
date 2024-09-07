@@ -11,7 +11,7 @@ int main() {
         for( int j = 1; j <= i + 1; j++) {      // Loop for first half numbers
             cout << j;
         }
-        for(int j = 1; j <= i; j++) {           // Loop for seconf half numbers
+        for(int j = i; j > 0; j--) {           // Loop for seconf half numbers
             cout << j;
         }
         cout << endl;
