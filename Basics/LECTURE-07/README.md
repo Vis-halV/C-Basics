@@ -11,3 +11,17 @@ The unique purpose of these shifting operators are that they both perform an uni
         when a >> b
         
         that is a / 2^b
+
+Operator precendence 
+
+High to low 
+    !               - NOT
+    ++ , --         - Unary operator
+    * , / , %       - Multiplication , Division , Modulo
+    + , -           - Addition and Subtraction 
+    & , | , ^       - Bitwise operator
+    < , > , <= , >= - Conditional operators
+    == , !=         - Equal to and Not equal to
+    &&              - Logical AND
+    ||              - Logical OR
+    =               - Assignment Operator  
