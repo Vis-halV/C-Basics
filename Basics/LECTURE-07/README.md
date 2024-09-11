@@ -15,17 +15,17 @@ The unique purpose of these shifting operators are that they both perform an uni
 Operator precendence 
 <br>
 
-    High to low <br>
-    !               - NOT<br>
-    ++ , --         - Unary operator<br>
-    * , / , %       - Multiplication , Division , Modulo<br>
-    + , -           - Addition and Subtraction <br>
-    & , | , ^       - Bitwise operator<br>
-    < , > , <= , >= - Conditional operators<br>
-    == , !=         - Equal to and Not equal to<br>
-    &&              - Logical AND<br>
-    ||              - Logical OR<br>
-    =               - Assignment Operator<br>  
+    High to low 
+    !               - NOT 
+    ++ , --         - Unary operator 
+    * , / , %       - Multiplication , Division , Modulo 
+    + , -           - Addition and Subtraction  
+    & , | , ^       - Bitwise operator 
+    < , > , <= , >= - Conditional operators 
+    == , !=         - Equal to and Not equal to 
+    &&              - Logical AND 
+    ||              - Logical OR 
+    =               - Assignment Operator   
 
 
     When two operators of same precedence are written together associativity is applied.
