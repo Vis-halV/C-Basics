@@ -31,5 +31,4 @@ Operator precendence
     When two operators of same precedence are written together associativity is applied.
 
     For example a*b/c * is solve first as it has associativity from right to left 
-<br>
-    except - ! , ++ , -- and = Assignment operator have right to left associativity 
+<br>except - ! , ++ , -- and = Assignment operator have right to left associativity 
