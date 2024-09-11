@@ -15,8 +15,7 @@ The unique purpose of these shifting operators are that they both perform an uni
 Operator precendence 
 <br>
 
-    High to low 
-    <br>
+    High to low <br>
     !               - NOT<br>
     ++ , --         - Unary operator<br>
     * , / , %       - Multiplication , Division , Modulo<br>
