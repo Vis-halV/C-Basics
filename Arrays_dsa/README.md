@@ -6,3 +6,9 @@ Arrays
 
 Macros 
     INT_MAX and INT MIN which has the highest and smallest value of an integer which is used to compare some values whether it is smallest or the biggest.
+
+Linear Search 
+    This is called linear search because the elements of an array is searched linearly.
+    It has complexity of O(n) in the worst case senario.
+    In simple words this explains that it takes as much long 
+    to find an element in the nth position. We will learn that later in the time complexity chapter.
