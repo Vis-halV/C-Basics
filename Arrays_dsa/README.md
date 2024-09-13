@@ -13,7 +13,6 @@ Pass by Rreference
     - If the value is passed by value it does not affect the value globally,
     - But when value is passed by reference it affects the value globally.
 
-
 Linear Search 
     - This is called linear search because the elements of an array is searched linearly.
     - It has complexity of O(n) in the worst case senario.
