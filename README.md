@@ -1,1 +1,2 @@
-This is the process of C++ course by APANA COLLEGE
+Be consistent <br>
+Something is Better than Nothing 
