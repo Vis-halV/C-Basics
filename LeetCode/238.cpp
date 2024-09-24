@@ -4,17 +4,28 @@ using namespace std;
 
 vector<int> productExceptSelf(vector<int>& nums) {
     int n = nums.size();
-    vector<int> ans(n, 1); // initializing with value 1
+    vector<int> ans(n, 1); 
+    vector<int> pre(n, 1); 
+    vector<int> suf(n, 1);
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            if (i != j) {
-                ans[i] *= nums[j];
-            }
-        }
-    }    
+    // Prefix
+    for(int i = 1; i < n; i++) {
+        pre[i] = pre[i-1] * nums[i-1];
+    } 
+
+    // Suffix
+    for(int i = n-2; i >= 0; i--) {
+        suf[i] = suf[i+1] * nums[i-1];
+    }      
+
+    // Answer
+    for(int i = 0; i < n; i++) {
+        ans[i] = pre[i] * suf[i];
+    }   
+
     return ans;
 }
+
 
 int main() {
     vector <int> nums = {1, 2, 3, 4};
