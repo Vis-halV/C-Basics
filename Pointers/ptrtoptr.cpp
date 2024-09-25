@@ -7,8 +7,9 @@ int main() {
 
     int** parentPtr = &ptr;
 
-    cout << &ptr << endl;
-    cout << parentPtr << endl;
+    cout << *(parentPtr) << endl;
+    cout << ptr << endl;
+    cout << **(parentPtr) << endl;
     
     return 0;
 }
