@@ -7,7 +7,7 @@ int binarySearch(vector<int> arr, int target) {
 
     while (st <= end)
     {
-        int mid = (st + end ) /2;
+        int mid = st + (end - st)/2;
 
         if(target > arr[mid]) {
             st  = mid + 1;
