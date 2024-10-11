@@ -22,7 +22,13 @@ void sortColors(vector<int>& nums){ // O(n)
 }
 
 int main() {
-    vector<int> nums = {};
+    vector<int> nums = {2, 0, 2, 1, 1, 0};
+    sortColors(nums);
+    for(int i : nums) {
+        cout << i << " ";
+    }
+
+    cout << endl;
 
     return 0;
 }
