@@ -17,27 +17,15 @@ void printSizeCap(vector<int> vec) {
 
 int main() {
     vector<int> vec;
-    printSizeCap(vec);
     vec = {1, 2};
-
-    cout << "The updated vector : ";
-    printVec(vec);
-    printSizeCap(vec);
-    
     vec.push_back(3);
     vec.push_back(4);
-    cout << "Updated vector using push back :" ;
-    printVec(vec);
-    printSizeCap(vec);
-
     vec.push_back(5);
-    cout << "Updated vector using push back :" ;
-    printVec(vec);
-    printSizeCap(vec);
-    
+    vec.push_back(6);
     vec.pop_back();
-    cout << "After pop back : ";
+
     printVec(vec);
 
+    cout << "Element at index 2 using square brackets like array " << vec[2] << " or by at(index) " << vec.at(2) << endl;
     return 0;
 }
