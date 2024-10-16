@@ -27,5 +27,10 @@ int main() {
     printVec(vec);
 
     cout << "Element at index 2 using square brackets like array " << vec[2] << " or by at(index) " << vec.at(2) << endl;
+
+    // To access first and last element 
+    cout << "Front : " << vec.front() << endl;
+    cout << "Back : " << vec.back() << endl;
+
     return 0;
 }
