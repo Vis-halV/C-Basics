@@ -32,5 +32,11 @@ int main() {
     cout << "Front : " << vec.front() << endl;
     cout << "Back : " << vec.back() << endl;
 
+    vec.erase(vec.begin()); // To delete first element 
+    printVec(vec);
+
+    vec.erase(vec.begin() + 1); // To delete second element 
+    printVec(vec);
+
     return 0;
 }
