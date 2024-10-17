@@ -46,5 +46,9 @@ int main() {
     cout << "Is empty " << vec.empty() << endl; // True - 1 i.e empty after clear
     cout << "Is empty " << vec.empty() << endl; // True - 1 i.e empty after clear
 
+    printVec(vec);
+    cout << "vec.begin : " << *(vec.begin()) << endl;
+    cout << "vec.end : " << *(vec.end()) << endl;
+    
     return 0;
 }
