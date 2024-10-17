@@ -37,6 +37,14 @@ int main() {
 
     vec.erase(vec.begin() + 1); // To delete second element 
     printVec(vec);
+    // Erases the value but does not decrese the capacity like popback()
+
+    vec.insert(vec.begin(), 1); // To insert at beignning 
+    printVec(vec); 
+
+    vec.clear(); // To clear the vector
+    cout << "Is empty " << vec.empty() << endl; // True - 1 i.e empty after clear
+    cout << "Is empty " << vec.empty() << endl; // True - 1 i.e empty after clear
 
     return 0;
 }
