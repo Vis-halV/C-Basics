@@ -20,5 +20,15 @@ int main() {
     }
     cout << endl;
 
+    list<int> lst1;
+    lst1.emplace_back(5);
+    lst1.emplace_front(3);
+    lst1.emplace_front(1);
+
+    for(int val : lst1) {
+        cout << val << " ";
+    }
+    cout << endl;
+
     return 0;
 }
