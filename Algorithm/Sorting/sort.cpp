@@ -32,5 +32,16 @@ int main() {
         cout << val.first << " " << val.second << endl;
     }
 
+    // Reverse printing 
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    reverse(vec.begin(), vec.end()); 
+
+    cout << "Rverse Vector : " << endl;
+    for(auto val : vec) {
+        cout << val << " ";
+    }    
+    cout << endl;
+    
     return 0;
 }
