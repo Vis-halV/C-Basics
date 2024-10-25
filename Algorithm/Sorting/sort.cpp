@@ -3,24 +3,34 @@
 #include <algorithm>
 using namespace std;
 
+bool comparator(pair<int, int> p1, pair<int, int> p2) {
+    if(p1.second < p2.second) return true;  // If second number is greater than the first then true 
+    if(p1.second > p2.second) return false; // Else false 
+
+    if(p1.first < p2.first) return true;    // When has same second value compare first value 
+    else return false; // vice versa 
+}
+
 int main() {
-    vector<int> vec = {3, 5, 4, 6, 1, 2};
+    vector<pair<int, int>> p = {{1,1}, {1,2}, {2,1}, {2,2}};
 
-    sort(vec.begin(), vec.end());   // Ascending Order 
+    // Ascending order  
 
-    cout << "Ascending order : ";
-    for(auto val : vec) {
-        cout << val <<  " ";
+    sort(p.begin(), p.end()); 
+
+    cout << "Ascending order by first value : " << endl;
+    for(auto val : p) {
+        cout << val.first << " " << val.second << endl;
     }
-    cout << endl;
 
-    sort(vec.begin(), vec.end(), greater<int>());   // Descending order 
+    // Ascending order by second value
 
-    cout << "Descending order : ";
-    for(auto val : vec) {
-        cout << val <<  " ";
+    sort(p.begin(), p.end(),comparator); 
+
+    cout << "Ascending order by second value : " << endl;
+    for(auto val : p) {
+        cout << val.first << " " << val.second << endl;
     }
-    cout << endl;
 
     return 0;
 }
